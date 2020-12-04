@@ -1,0 +1,160 @@
+@import 'colors';
+
+// Frame
+body {
+  background-color: $background-color-body;
+}
+
+.resume-frame {
+  margin: auto;
+  width: 900px;
+  padding-top: 20px;
+  background-color: $background-color-body;
+}
+
+.green-bar{
+  margin: auto;
+  max-width: 900px;
+  height: 8px;
+  background-color: $green;
+}
+.resume {
+  display: grid;
+  grid-template-columns: 35% auto;
+  grid-gap: 1em;
+  margin: auto;
+  max-width: 850px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+  background-color: $background-color-body;
+}
+
+.left-column {
+  grid-column: 1;
+}
+
+.right-column {
+  grid-column: 2;
+}
+
+// Colors, font properties & elements aesthetic
+hr {
+  color: $separator;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2, .position {
+  color: $section-titles;
+}
+
+.is-green {
+  font-weight: 16px;
+  color: $green;
+}
+
+.town {
+  font-size: 16px;
+  color: $city;
+}
+
+.description, .skill-name {
+  color: $main-text-color;
+}
+
+.type, .dates {
+  color: $first-line-grey;
+}
+
+.contact-details {
+  color: $contact-details-text-color;
+}
+.skill-name {
+  background-color: $skills-background;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portrait {
+  width: 120px;
+  clip-path: circle(40%);
+}
+
+.icon {
+  width: 20px;
+}
+
+
+// Positions and other properties
+h1, .desired-position, .town {
+  text-align: center;
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-title {
+  display: flex;
+  padding-left: 20px;
+}
+
+.card {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-right: 15px;
+  background-color: $background-color-cards;
+  border: solid 2px $border;
+  border-radius: 2px;
+  box-shadow: 2px 2px 2px $border;
+}
+
+.indented-content {
+  padding-left: 50px;
+}
+
+.indented-content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icon-title h2 {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.card-title {
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.hobby, .experiences, .experience, .icon-title h2 {
+  margin-bottom: 20px;
+}
+
+.skills-list, .hobby {
+  padding-left: 12px;
+}
+
+.skill-name {
+  display: inline-block;
+  margin: 5px;
+  padding: 0 1px 0 1px;
+}
+
+.experiences {
+  padding-left: 50px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}

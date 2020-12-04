@@ -1,0 +1,172 @@
+body {
+  background-color: #f8f7f3;
+}
+
+.resume-frame {
+  margin: auto;
+  width: 900px;
+  padding-top: 20px;
+  background-color: #f8f7f3;
+}
+
+.green-bar {
+  margin: auto;
+  max-width: 900px;
+  height: 8px;
+  background-color: #16770C;
+}
+
+.resume {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% auto;
+      grid-template-columns: 35% auto;
+  grid-gap: 1em;
+  margin: auto;
+  max-width: 850px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f7f3;
+}
+
+.left-column {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.right-column {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+hr {
+  color: #ebeaea;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2, .position {
+  color: #4a4a4a;
+}
+
+.is-green {
+  font-weight: 16px;
+  color: #16770C;
+}
+
+.town {
+  font-size: 16px;
+  color: #9b9b9b;
+}
+
+.description, .skill-name {
+  color: #5e5e5e;
+}
+
+.type, .dates {
+  color: #b2b2b2;
+}
+
+.contact-details {
+  color: #828282;
+}
+
+.skill-name {
+  background-color: #eaeaea;
+}
+
+a {
+  text-decoration: none;
+}
+
+.portrait {
+  width: 120px;
+  -webkit-clip-path: circle(40%);
+          clip-path: circle(40%);
+}
+
+.icon {
+  width: 20px;
+}
+
+h1, .desired-position, .town {
+  text-align: center;
+}
+
+.profile-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+}
+
+.card {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-right: 15px;
+  background-color: #ffffff;
+  border: solid 2px #eeeeee;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 2px #eeeeee;
+          box-shadow: 2px 2px 2px #eeeeee;
+}
+
+.indented-content {
+  padding-left: 50px;
+}
+
+.indented-content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icon-title h2 {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.card-title {
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.hobby, .experiences, .experience, .icon-title h2 {
+  margin-bottom: 20px;
+}
+
+.skills-list, .hobby {
+  padding-left: 12px;
+}
+
+.skill-name {
+  display: inline-block;
+  margin: 5px;
+  padding: 0 1px 0 1px;
+}
+
+.experiences {
+  padding-left: 50px;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+/*# sourceMappingURL=style.css.map */
